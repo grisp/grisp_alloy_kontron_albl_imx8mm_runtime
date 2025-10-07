@@ -1,0 +1,14 @@
+{application, grisp_runtime, [
+    {description, "Kontron AL/BL iMX8Mini Runtime for GRiSP Alloy"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {grisp_runtime_app, []}},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache-2.0"]},
+    {links, []}
+ ]}.
