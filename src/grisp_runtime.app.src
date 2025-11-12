@@ -6,7 +6,9 @@
     {applications, [
         kernel,
         stdlib,
-        grisp_updater
+        grisp_netman,
+        grisp_updater,
+        grisp_connect
     ]},
     {env, []},
     {modules, []},
