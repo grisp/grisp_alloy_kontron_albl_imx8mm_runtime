@@ -7,6 +7,7 @@
         kernel,
         stdlib,
         grisp_netman,
+        grisp_time,
         grisp_updater,
         grisp_connect
     ]},
